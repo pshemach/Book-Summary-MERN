@@ -1,0 +1,55 @@
+form {
+    border: solid #b1b0bc;
+    padding: 20px;
+    margin: 3% auto;
+    max-width: 400px;
+    border-radius: 10px;
+}
+form .title {
+    text-align: center;
+    margin: 0 auto;
+}
+form .title-massage {
+    text-align: center;
+    margin-top: 10px;   
+}
+form div label{
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+form div input{
+    width: 100%;
+    height: 40px;
+    outline: none; 
+    border-radius: 5px; 
+    border: 1.5px solid #b1b0bc;  
+}
+form div input:focus {
+    border: 2px solid #0dd354;
+}
+form div textarea{
+    width: 100%;
+    height: 100px;
+    outline: none; 
+    border-radius: 5px; 
+    border: 1.5px solid #b1b0bc;
+}
+form div textarea:focus {
+    border: 2px solid #0dd354;
+}
+form div {
+    margin-bottom: 10px;
+}
+form button {
+    background-color: #0dd354;
+    display: block;
+    margin: 15px auto;
+    padding: 10px 60px;
+    border-radius: 5px;
+    border-color: #0dd354;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 0;
+}
